@@ -1,0 +1,56 @@
+
+.globalHeading {
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+.mainHeading {
+    text-align: center;
+    color: black;
+    font-weight: 300 !important;
+}
+
+.globalHeading p 
+{
+    font-size: 13px;
+    line-height: 1px !important;
+    margin-top: 5px !important;
+}
+
+.card {
+    margin: 10px 1% !important;
+    width: 380px;
+}
+
+.confirmed {
+    background-color: rgba(129, 128, 128, 0.8) !important;
+    color: white !important;
+    border-left: solid 7px black;
+}
+
+.headerHeading1 {
+    font-weight: 700 !important;
+    color: black !important;
+}
+
+.recovered {
+    background-color: rgba(107, 172, 90, 0.8) !important;
+    color: white !important;
+    border-left: solid 7px green;
+}
+
+.deaths {
+    background-color: rgba(214, 109, 109, 0.8) !important;
+    color: white !important;
+    border-left: solid 7px red;
+}
+
+@media screen and (min-width: 960px)
+{
+    .globalHeading {
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 77%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}

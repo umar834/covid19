@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.headingimg {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    flex-direction: column;
+}
+
+.container::after {
+    content: "";
+    opacity: 0.2;
+    background: url("./images/covid-19-bg.jpg") no-repeat fixed top;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 1100px;
+}
+
+@media screen and (min-width: 700px)
+{
+    .headingimg {
+        width: 600px;
+    }
+}
