@@ -20,6 +20,7 @@ class App extends React.Component
         const apiData = await fetchData(country);
         this.setState({data: apiData, country: country})
     }
+    
     render(){
         return(
             <div className={styles.container}>
