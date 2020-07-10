@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build covid-19-by-umar.surge.sh --token ${{ secrets.COVID_19_KEY }}
+      run: surge ./build covid19-app-by-umar.surge.sh --token ${{ secrets.COVID_19_KEY }}
